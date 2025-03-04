@@ -1,0 +1,95 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center the profile card */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #999;
+}
+
+/* Profile Card */
+.profile-card {
+    background: white;
+    width: 350px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+    transform: scale(1.05);
+}
+
+/* Header Gradient */
+.header {
+    height: 140px;
+    background: linear-gradient(to bottom, #d91e18, #ff512f);
+    border-radius: 25px 25px 0 0;
+    position: relative;
+}
+
+/* Profile Image */
+.profile-img {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.profile-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+/* Name & Designation */
+h2 {
+    margin-top: 60px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.designation {
+    color: #d91e18;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Bio */
+.bio {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 20px;
+    padding-bottom: 10px;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 15px;
+}
+
+.social-icons a {
+    font-size: 18px;
+    color: #d91e18;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: #ff512f;
+}
