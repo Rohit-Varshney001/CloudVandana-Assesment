@@ -100,15 +100,4 @@ This repository contains my solutions for the Associate Software Engineer coding
    javac AnagramCheck.java
    javac Employee.java EmployeeManagement.java
 
-### Repository Structure
-```
-├── profile-card.html
-├── todo.html
-├── slider.html
-├── styles.css
-├── todo.js
-├── slider.js
-├── AnagramCheck.java
-├── Employee.java
-└── EmployeeManagement.java
-```
+
